@@ -3,7 +3,9 @@ Use this script if you want to bulk checkout or bulk commit to/from a whole
 bunch of repos. Very lazy and potentially dangerous. Use at your peril.
 
 It'll also try and use phpunit to generate codecoverage for you. But that's
-a bit buggy.
+a bit buggy. It probably won't work unless you have all the permissions setup.
+
+If you want to use this, drop me a line and I'll fix it up.
 
 --- Requirments ---
 Python.
