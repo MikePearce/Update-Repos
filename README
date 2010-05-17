@@ -1,0 +1,47 @@
+---- updateRepos -----
+Use this script if you want to bulk checkout or bulk commit to/from a whole
+bunch of repos. Very lazy and potentially dangerous. Use at your peril.
+
+It'll also try and use phpunit to generate codecoverage for you. But that's
+a bit buggy.
+
+--- Requirments ---
+Python.
+svn
+phpunit
+
+
+---- DISCLAIMER -----
+This was my FIRST ever python script, as such, it was more of a learning
+excercise than anything, which is why it's closer to the "E" than the "F" on the
+"AWESOMECODER" fuel guage of life (woah, what an analogy), anyway ...
+
+---- Usage ----
+Put in /usr/sbin.
+Mark it as executable (chmod +x repo-update.py)
+Then run it:
+./repo-update --help
+./repo-update up
+./repo-update ci (You'll be asked for a commit message.
+
+--- Other ---
+Now with more Matt Groening!
+
+               ,'``.._   ,'``."
+              :,--._:)\,:,._,.:       All Glory to
+              :`--,''   :`...';\      the HYPNO TOAD!
+               `,'       `---'  `.   
+               /                 :"
+              /                   \\"
+            ,'                     :\.___,-."
+           `...,---'``````-..._    |:       \\"
+             (                 )   ;:    )   \  _,-."
+              `.              (   //          `'    \\"
+               :               `.//  )      )     , ;"
+             ,-|`.            _,'/       )    ) ,' ,'"
+            (  :`.`-..____..=:.-':     .     _,' ,'"
+             `,'\ ``--....-)='    `._,  \  ,') _ '``._"
+          _.-/ _ `.       (_)      /     )' ; / \ \`-.'"
+         `--(   `-:`.     `' ___..'  _,-'   |/   `.)"
+             `-. `.`.``-----``--,  .'"
+               |/`.\`'        ,','); "
